@@ -26,7 +26,7 @@ section {
 }
 
 img {
-    width: 100%;
+    width: 33%;
 }
 
 footer {
@@ -48,9 +48,12 @@ button {
     cursor: pointer;
 }
 
-section div{
+
+@media screen and (max-width: 720px) {
+   
+ section div img{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: .1rem;
 }
 
@@ -58,8 +61,5 @@ img{
     padding: 0 .1rem;
     width: 33.33%;
 }
-
-@media screen and (max-width: 720px) {
-   
 
 }
