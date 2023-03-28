@@ -62,7 +62,6 @@ button {
     cursor: pointer;
 }
 
-
 @media screen and (max-width: 720px) {
 
     section{
@@ -71,7 +70,7 @@ button {
         padding-top: .1%;
         padding-bottom: .1%;
     }
-    section div {
+    .pics {
         display: flex;
         flex-direction: column;
         padding: .1rem;
