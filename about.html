@@ -49,7 +49,7 @@
                     </ol>
                 </div>
             </div>
-            <div class="bottom-right">                
+            <div class="bottom-right">
                 <div class="list">
                     <dl>
                         <dt>Munkáim:</dt>
@@ -81,8 +81,23 @@
         </section>
     </main>
     <section class="form">
-        Név:
-        <input type="text" required placeholder="Írd ide a neved...">
+        <div class="first-input-group">
+            <div>
+                <label for="name">Név:</label>
+                <input id="name" name="name" type="text" placeholder="írd ide a neved...">
+                <div>
+                    <label for="email">Email:</label>
+                    <input id="email" name="email" type="email" placeholder="e-mail cím...">
+                </div>
+                <div>
+                    <label for="message">Üzenet:</label>
+                    <input id="message" name="message" type="text" placeholder="üzenet">
+                </div>
+            </div>
+        </div>
+        <div>
+            <input type="submit">
+        </div>
     </section>
     <footer>
         <div class="button">
